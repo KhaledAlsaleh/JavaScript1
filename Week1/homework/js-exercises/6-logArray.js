@@ -7,5 +7,5 @@ console.log(items);
 let myFavAnimals = ['Dogs', 'Foxes', 'Lions'];
 console.log(myFavAnimals);
 
-myFavAnimals.push('Piglet');
+myFavAnimals.push('Piglet');  // or myFavAnimals.unshift('Piglet');
 console.log(myFavAnimals);
