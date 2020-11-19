@@ -19,19 +19,18 @@ const myBooks = [
     }
 ]
 
-for (let i = 0; i<= 2; i++){
-    console.log(myBooks[i].title + " by " + myBooks[i].author)
-}
+//for (let i = 0; i<= 2; i++){
+//    console.log(myBooks[i].title + " by " + myBooks[i].author)
+// }
 
 for(let i=0 ; i<=2 ; i++){
+    console.log("Book "+ (i+1) +" Details: Name",myBooks[i].title,"& Author",myBooks[i].author);  // or console.log(myBooks[i].title + " by " + myBooks[i].author)
     if (myBooks[i].alreadyRead == true){
 
-        console.log("Book "+ (i+1) +" Details: Name",myBooks[i].title,"& Author",myBooks[i].author);
         console.log("You already read " + '"' +myBooks[i].title +'"');
         
     }else{
 
-        console.log("Book "+ (i+1) +" Details: Name",myBooks[i].title,"& Author",myBooks[i].author);
         console.log("you still need to read "+'"' + myBooks[i].title + '"');
 
     }
