@@ -86,7 +86,7 @@ function validateCreditNumber(creditCardNumber){
     /*
     I will create an object to store the key for every item (character) in creditCardNumber.
     Then give values for every item {I don't care about the values it can be any value}.
-    Using .keys to return a all unique keys {without unique}.
+    Using .keys to return a all unique keys {without duplication}.
     Then if length of these keys is smaller than 2 then the creditCardNumber is not valid , because we have less than 2 different numbers
     */
     
